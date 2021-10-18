@@ -12,7 +12,7 @@ const todos = [
   { text: "Hacer la entrega de testing", completed: false },
 ]
 
-function App(props) {
+function App() {
   return (
     <React.Fragment>
       <TodoCounter />
