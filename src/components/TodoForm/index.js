@@ -27,6 +27,7 @@ function TodoForm() {
         value={newTodoValue}
         onChange={onChange}
         placeholder='Planificar tareas de la semana'
+        className='textArea'
       />
       <div className='TodoForm-buttonContainer'>
         <button
